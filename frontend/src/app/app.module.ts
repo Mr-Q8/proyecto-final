@@ -11,6 +11,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HysComponent } from './components/hys/hys.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
+import { RedesSocialesComponent } from './components/redes-sociales/redes-sociales.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { LogoApComponent } from './components/logo-ap/logo-ap.component';
     ProyectosComponent,
     HysComponent,
     FooterComponent,
-    LogoApComponent
+    LogoApComponent,
+    RedesSocialesComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
