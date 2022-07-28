@@ -1,0 +1,16 @@
+.row {
+    background-color: #a1b5cb;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background-color: #a1b5cb;
+}
+
+.header {
+    grid-column: 1/6;
+    background-color: #a1b5cb;
+    padding: 10px;
+}
